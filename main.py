@@ -27,7 +27,7 @@ default_args = {
     },
     'max_length': {
         'type': int,
-        'default': 80,
+        'default': 16,
         'range': [1, 200]
     },
     'repetition_penalty': {
@@ -37,7 +37,7 @@ default_args = {
     },
     'num_return_sequences': {
         'type': int,
-        'default': 5,
+        'default': 1,
         'range': [1, 5]
     },
 }
